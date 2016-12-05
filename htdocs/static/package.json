@@ -1,0 +1,21 @@
+{
+  "name": "node-import",
+  "version": "1.0.0",
+  "description": "trying to replicate a node module import issue with tests",
+  "main": "ucp2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Tichonczuk",
+  "license": "ISC",
+  "dependencies": {
+    "can": "^2.3.27",
+    "steal": "^0.16.43"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "steal-mocha": "0.0.3",
+    "steal-tools": "^0.16.8"
+  }
+}
