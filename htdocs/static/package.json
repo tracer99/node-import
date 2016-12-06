@@ -17,5 +17,34 @@
     "chai-as-promised": "^6.0.0",
     "steal-mocha": "0.0.3",
     "steal-tools": "^0.16.8"
-  }
+  },
+  "system": {
+    "npmAlgorithm": "flat",
+    "npmIgnore": [
+      "devDependencies"
+    ],
+    "main": "ucp2",
+    "map": {
+      "mootools/mootools": "mootools"
+		},
+    "paths": {
+      "mootools": "MooTools-Core-1.6.0.js",
+      "can/util/util": "/node_modules/can/util/mootools/mootools.js"
+		},
+    "meta": {
+      "mootools": {
+        "format": "global",
+        "scriptEval": true
+      }
+		},
+    "ext": {
+      "ejs": "can/view/ejs/system",
+      "stache": "can/view/stache/system"
+    },
+    "buildConfig": {
+      "map": {
+        "can/util/util": "can/util/domless/domless"
+      }
+    }
+	}
 }

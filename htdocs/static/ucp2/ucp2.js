@@ -1,17 +1,6 @@
-import 	"mootools";
-import can from "can";
-import template from "ucp2/ucp2.stache!";
+import "mootools";
+import Stache from "can/view/stache/";
+import "ucp2/dashboard/";
 
-export const ViewModel = Map.extxend({
-	myMessage: "Hello World"
-});
-
-export default Component.extend({
-	tag: "ucp-base",
-	template: template,
-	viewModel: ViewModel
-});
-	
-
-
-
+let template = Stache('<ucp2-dashboard/>');
+$("ucp").inject(template());
