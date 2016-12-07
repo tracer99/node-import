@@ -5,3 +5,6 @@ I'm trying to replicate an issue where unit tests are not importing node modules
 To more closely replicate this issue, the root of the site is in htdocts/static
 
 No webserver component lives in our project so point nginx or apache at that dir
+
+If you go to / the page loads with "Hello World".
+If you go to ucp2/dashboard/test.html you get a bunch of errors that imports are failing
