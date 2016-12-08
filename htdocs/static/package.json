@@ -20,12 +20,10 @@
   },
   "system": {
     "npmAlgorithm": "flat",
-    "npmIgnore": [
-      "devDependencies"
-    ],
     "main": "ucp2",
     "map": {
-      "mootools/mootools": "mootools"
+      "mootools/mootools": "mootools",
+			"chai": "chai/chai"
 		},
     "paths": {
       "mootools": "MooTools-Core-1.6.0.js",
